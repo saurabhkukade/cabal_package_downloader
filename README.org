@@ -1,0 +1,11 @@
+* Cabal Package Download-er
+  This is a python script to download and install cabal package.
+  I needed this script because I did not find any good utility
+  to download cabal package into sandbox, So I wrote this script
+  which resolve dependencies of given package and download all
+  of them to sandbox location. 
+
+* How to Run:
+  #+BEGIN_SRC emacs-lisp
+  sudo python cabalRecDownLoader.py <package-name> <package-version> <sandbox-path>
+  #+END_PRC
